@@ -35,8 +35,8 @@ export default class YouTubeDebugger extends React.Component {
         ...this.state.settings,
         video: {
           resolution: '720p'
-        }
-      }
+        } // comma here seems unnecessary but does not break anything and the reading has a comma
+      } // same here
     })
   }
 
